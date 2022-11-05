@@ -4,6 +4,16 @@
     font-family: 'Dosis', sans-serif;
 
 }
+.hero {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
 
 ul {
     flex: 1;
@@ -55,5 +65,5 @@ ul li a:hover::after{
 
 .left-column,.right-column{
     flex-basis: 50%;
-    
+
 }
