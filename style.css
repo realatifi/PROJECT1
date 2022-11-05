@@ -4,3 +4,56 @@
     font-family: 'Dosis', sans-serif;
 
 }
+
+ul {
+    flex: 1;
+    text-align: right; 
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+}
+
+ul li a{
+     text-decoration: none;
+     color: #f08da5;
+     padding: 0 10px;
+     position: relative;
+}
+ul li a::after{
+    content: '';
+    width: 0;
+    height: 10px;
+    background: #f08da5;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -55px;
+    transition: 0.5s;
+}
+ul li a:hover::after{
+    width: 100%;
+
+}
+
+.navbar-icon img{
+    height: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.navbar-icon{
+    margin-left: 40px;
+}
+
+.banner {
+    display: flex;
+    margin-top: 80px;
+}
+
+.left-column,.right-column{
+    flex-basis: 50%;
+    
+}
