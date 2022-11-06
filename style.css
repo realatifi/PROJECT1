@@ -92,3 +92,16 @@ ul li a:hover::after{
     border: 0;
     outline: none;
 }
+
+.left-column h1{
+    font-size: 100px;
+
+}
+
+.left-column h3{
+    font-size: 35px;
+    
+}
+.span{
+    color: rgb(141, 15, 15);
+}
