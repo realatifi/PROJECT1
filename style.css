@@ -102,6 +102,6 @@ ul li a:hover::after{
     font-size: 35px;
     
 }
-.span{
+span{
     color: rgb(141, 15, 15);
 }
