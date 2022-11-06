@@ -95,13 +95,15 @@ ul li a:hover::after{
 
 .left-column h1{
     font-size: 100px;
+    color: #d2313f;
 
 }
 
 .left-column h3{
     font-size: 35px;
+    color:#d2313f;
     
 }
 span{
-    color: rgb(141, 15, 15);
+    color: #880e0b;
 }
