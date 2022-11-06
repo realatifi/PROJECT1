@@ -28,7 +28,7 @@ ul li {
 
 ul li a{
      text-decoration: none;
-     color: #f08da5;
+     color: #880e0b;
      padding: 0 10px;
      position: relative;
 }
@@ -36,7 +36,7 @@ ul li a::after{
     content: '';
     width: 0;
     height: 10px;
-    background: #f08da5;
+    background: #880e0b;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
