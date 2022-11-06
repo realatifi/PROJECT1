@@ -107,3 +107,9 @@ ul li a:hover::after{
 span{
     color: #880e0b;
 }
+
+.left-column p{
+    font-size: 14px;
+    color: #999;
+    margin: 50px 0;
+}
