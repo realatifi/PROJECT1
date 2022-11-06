@@ -123,3 +123,8 @@ span{
     color: #d2313f;
     background: transparent;
 }
+.btn .primary-btn{
+    background: linear-gradient(#d2313f, #f14a60);
+    box-shadow: 0px 2px 15px rgba(248, 38, 103, 0.26);
+    color: white;
+}
