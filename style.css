@@ -71,3 +71,22 @@ ul li a:hover::after{
 .right-column img{
     width: 100%;
 }
+.search-box{
+    width: 40%;
+    display: flex;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0px 30px;
+}
+
+.search-box img{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.search-box input{
+    width: 100%;
+    margin-left: 15px;
+    font-size: 17px;
+}
